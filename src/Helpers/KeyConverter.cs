@@ -15,8 +15,7 @@ namespace DisplayProfileManager.Helpers
             { Key.Clear, 0x0C },
             { Key.Return, 0x0D },
             { Key.Pause, 0x13 },
-            { Key.Capital, 0x14 },
-            { Key.Escape, 0x1B },
+            { Key.Capital, 0x14 },            { Key.Escape, 0x1B },
             { Key.Space, 0x20 },
             { Key.PageUp, 0x21 },
             { Key.PageDown, 0x22 },
@@ -214,8 +213,7 @@ namespace DisplayProfileManager.Helpers
                    key == Key.LeftCtrl || key == Key.RightCtrl ||
                    key == Key.LeftAlt || key == Key.RightAlt ||
                    key == Key.LWin || key == Key.RWin ||
-                   key == Key.System || key == Key.CapsLock ||
-                   key == Key.NumLock || key == Key.Scroll;
+                   key == Key.System;
         }
 
         public static ModifierKeys GetCurrentModifiers()
